@@ -1,4 +1,4 @@
-![Example Image](./images/final.png)
+![Example Image](./public/final.png)
 
 # Design Agency Website
 

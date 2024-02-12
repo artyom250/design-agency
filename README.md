@@ -15,8 +15,16 @@ Elevate your online presence with timeless & pleasing design. Captivate audience
 ### Sections
 
 * Home
+    * Hero
+    * Banner
+    * Work
+    * Services
+    * Banner Contact
+    * Blog
+    * Faq
 * Work
 * Services
 * Blog
 * Pricing
 * Work with Us
+* Footer

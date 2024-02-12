@@ -36,7 +36,7 @@ Elevate your online presence with timeless & pleasing design. Captivate audience
 > [!IMPORTANT]
 > Make sure you've already installed [Node](https://nodejs.org/en) and [Git](https://git-scm.com/) on your machine earlier.
 
-Clone the repo by typing these comands in your terminal to check out the project:
+Head into your folder and clone the repo by typing these comands in your terminal to check out the project:
 
 ```bash
 git clone https://github.com/artyom250/design-agency.git

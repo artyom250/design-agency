@@ -1,0 +1,46 @@
+.questions {
+    margin-top: 60px;
+}
+
+.ques {
+    cursor: pointer;
+    border: 2px solid #3b3b3e;
+    padding: 20px;
+    transition: 0.3s;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .1);
+}
+
+.ques:not(:nth-child(1)) {
+    margin-top: 18px;
+}
+
+.ques div {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.ques div p {
+    line-height: 1.3em;
+}
+
+.ques div i {
+    display: flex;
+    font-size: 30px;
+}
+
+.answer {
+    color: #85868b;
+    display: none;
+    line-height: 1.6em;
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+
+.answer.show {
+    display: block;
+}

@@ -1,0 +1,222 @@
+.Product {
+    color: white;
+    padding: 135px 150px;
+}
+
+.flex1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.flex1.block {
+    align-items: center;
+}
+
+.flex-text {
+    min-width: 556.4px;
+}
+
+.block-head {
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.1em;
+}
+
+.block-head.service {
+    max-width: 1200px;
+}
+
+.block-desc {
+    color: #85868b;
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 1.5em;
+    max-width: 550px;
+}
+
+.flex-text ul {
+    margin-top: 30px;
+}
+
+.flex-text ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex-text ul li i {
+    display: flex;
+    font-size: 25px;
+}
+
+.flex-text ul li:not(:nth-child(1)) {
+    margin-top: 13px;
+}
+
+.block-desc.service {
+    max-width: 650px;
+}
+
+.block-grid1 {
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.block-grid1 div {
+    border: 2px solid #3b3b3e;
+    position: relative;
+    padding: 30px;
+    z-index: 1;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .25);
+}
+
+.block-grid1 div::before {
+    background-color: white;
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: 0.2s;
+}
+
+.block-grid1 div:hover::before {
+    width: 100%;
+    height: 100%;
+}
+
+.block-grid1 div p {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.150em;
+    width: 200px;
+}
+
+.block-grid1 div:hover {
+    color: black;
+}
+
+.block-grid1 div i {
+    display: flex;
+    width: fit-content;
+    border: 2px solid #3b3b3e;
+    font-size: 35px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.grid-img {
+    display: flex;
+    max-width: 100%;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .5);
+}
+
+.grid-img img {
+    width: 100%;
+}
+
+.block-link {
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 25px;
+    margin-top: 50px;
+    transition: 0.2s;
+}
+
+.block-link:hover {
+    background: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+@media(max-width: 1300px) {
+    .flex1 {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .flex1.block {
+        flex-wrap: wrap;
+    }
+
+    .flex-text {
+        max-width: 800px;
+        min-width: initial;
+    }
+
+    .block-desc {
+        max-width: 100%;
+    }
+
+    .grid-img {
+        max-width: 800px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .Product {
+        padding: 135px 100px;
+    }
+}
+
+@media(max-width: 700px) {
+    .Product {
+        padding: 135px 70px;
+    }
+
+    .flex1 {
+        gap: 60px;
+    }
+
+    .block-head {
+        font-size: 60px;
+    }
+
+    .block-grid1 {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .block-grid1 div p {
+        max-width: 100%;
+        width: initial;
+    }
+}
+
+@media(max-width: 620px) {
+    .block-head {
+        font-size: 40px;
+        line-height: 1.2em;
+    }
+}
+
+@media(max-width: 500px) {
+    .Product {
+        padding: 135px 50px;
+    }
+
+    .block-grid1 div {
+        padding: 25px;
+    }
+
+    .block-grid1 div p {
+        font-size: 28px;
+    }
+
+    .block-grid1 div i {
+        font-size: 30px;
+    }
+}
+

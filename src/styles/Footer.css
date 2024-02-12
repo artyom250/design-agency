@@ -1,0 +1,153 @@
+.f-flex1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.f-flex2 {
+    display: flex;
+    gap: 125px;
+}
+
+.f-head {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.f-flex1 div ul li:not(:nth-child(1)) {
+    margin-top: 15px;
+}
+
+.f-flex1 div ul li a {
+    color: #85868b;
+    transition: 0.2s;
+}
+
+.f-flex1 div ul li a:hover {
+    color: white;
+}
+
+.f-desc {
+    color: #85868b;
+    margin-top: 30px;
+    line-height: 1.5em;
+    max-width: 500px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #3b3b3e;
+    margin-top: 30px;
+    gap: 15px;
+    padding: 15px;
+    transition: 0.2s;
+}
+
+.search:hover {
+    background: white;
+}
+
+.search:hover button {
+    color: white;
+}
+
+.search input {
+    color: black;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+.search button {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.f-flex3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 100px;
+}
+
+.f-flex3 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.f-flex3 p span {
+    color: #85868b;
+}
+
+.f-sn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.f-flex3 a:hover i {
+    background: white;
+    color: black;
+}
+
+.f-flex3 a i {
+    background: rgb(50, 50, 50);
+    color: white;
+    display: flex;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.2s;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .4);
+}
+
+@media(max-width: 1260px) {
+    .f-flex3 p {
+        display: none;
+    }
+
+    .f-flex1 {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .f-flex2 {
+        flex-direction: column;
+        gap: 70px;
+    }
+}
+
+@media(max-width: 550px) {
+    .f-flex3 {
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        gap: 30px;
+    }
+
+    .search {
+        flex-direction: column;
+    }
+
+    .search input {
+        padding: 15px 00px;
+    }
+
+    .search button {
+        width: 100%;
+    }
+}
+

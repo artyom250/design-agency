@@ -28,3 +28,17 @@ Elevate your online presence with timeless & pleasing design. Captivate audience
 * Pricing
 * Work with Us
 * Footer
+
+# Installation
+
+> [!IMPORTANT]
+> Make sure you've already installed [Node](https://nodejs.org/en) and [Git](https://git-scm.com/) on your machine earlier.
+
+Clone the repo by typing these comands in your terminal to check out the project:
+
+```bash
+git clone https://github.com/artyom250/design-agency.git
+cd design-agency
+npm install
+npm run dev
+```

@@ -1,8 +1,5 @@
-# React + Vite
+# Design Agency Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Embracing a responsive design philosophy, website is carefully built by using React to provide a seamless and captivating user experience across a diverse range of devices. Whether your visitors are browsing from a compact smartphone, a sleek tablet, or a widescreen desktop, rest assured that your website's aesthetics and functionality remain consistently impressive.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Elevate your online presence with timeless & pleasing design. Captivate audiences with stunning visuals and intuitive layouts that reflect both creativity and functionality. Stand out in the digital realm with a sophisticated and professional look that leaves a lasting impact.
